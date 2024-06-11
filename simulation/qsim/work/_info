@@ -1,0 +1,201 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Henrique/Documents/Projeto SD/simulation/qsim
+vcomp_b
+!s110 1715826585
+!i10b 1
+!s100 clk;?ZG=AFL2[SYI51U553
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2hoR=[g]4JFIJFn66083d1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1715826584
+Z3 8Projeto_ULA.vo
+Z4 FProjeto_ULA.vo
+!i122 2
+L0 32 196
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1715826585.000000
+Z6 !s107 Projeto_ULA.vo|
+Z7 !s90 -work|work|Projeto_ULA.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vcomp_b_vlg_vec_tst
+!s110 1715826586
+!i10b 1
+!s100 <>Yo4i^bD]nKoFTEbhNd>1
+R1
+IQ8N5f>:4ic16NSOmN50Ja1
+R2
+R0
+w1715826583
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 533
+R5
+r1
+!s85 0
+31
+!s108 1715826586.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R8
+R9
+vDecoder7_5
+!s110 1717197361
+!i10b 1
+!s100 5TkDHFdVQ=^zhz3NkLgl`0
+R1
+IoLCh[TZ8T6boYmPSDPS>T2
+R2
+R0
+w1717197360
+R3
+R4
+!i122 24
+L0 32 632
+R5
+r1
+!s85 0
+31
+Z10 !s108 1717197361.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@decoder7_5
+vDecoder7_5_vlg_vec_tst
+!s110 1717197362
+!i10b 1
+!s100 G>UJ=nUKniJb;zRRcnj2E2
+R1
+I[mcBaP`cN_=bDEcOCb>Tz2
+R2
+R0
+w1717197359
+Z11 8Waveform1.vwf.vt
+Z12 FWaveform1.vwf.vt
+!i122 25
+L0 30 91
+R5
+r1
+!s85 0
+31
+R10
+Z13 !s107 Waveform1.vwf.vt|
+Z14 !s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R8
+R9
+n@decoder7_5_vlg_vec_tst
+vSoma_AB
+Z15 !s110 1716993855
+!i10b 1
+!s100 Ni2PGPkN0gHFS7TJcY23G0
+R1
+I_PgBKj]k;W8MhfP5dKkGV0
+R2
+Z16 dD:/Users/hap/Documents/Projeto SD/simulation/qsim
+w1716993854
+R3
+R4
+!i122 18
+L0 32 503
+R5
+r1
+!s85 0
+31
+Z17 !s108 1716993855.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@soma_@a@b
+vSoma_AB_vlg_vec_tst
+R15
+!i10b 1
+!s100 WU[Z3<l^h3zb>>Xblzog[3
+R1
+IFi]E_?AXQ7hIKD=ln:zg]3
+R2
+R16
+w1716993850
+8Soma_sim.vwf.vt
+FSoma_sim.vwf.vt
+!i122 19
+L0 30 92
+R5
+r1
+!s85 0
+31
+R17
+!s107 Soma_sim.vwf.vt|
+!s90 -work|work|Soma_sim.vwf.vt|
+!i113 1
+R8
+R9
+n@soma_@a@b_vlg_vec_tst
+vSomador
+!s110 1715885130
+!i10b 1
+!s100 WSY`XXMWO@CBaj7c`B[8T0
+R1
+IQR`<DKRL6D7aEZ]g?TkZk3
+R2
+R0
+w1715885128
+R3
+R4
+!i122 4
+L0 32 120
+R5
+r1
+!s85 0
+31
+!s108 1715885130.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@somador
+vSomador_vlg_vec_tst
+!s110 1715885131
+!i10b 1
+!s100 ab6JM31ZA_@_fhem5Z]oJ1
+R1
+I7DnlO`PzeP_K=<;<a5^1i2
+R2
+R0
+w1715885127
+R11
+R12
+!i122 5
+L0 30 331
+R5
+r1
+!s85 0
+31
+!s108 1715885131.000000
+R13
+R14
+!i113 1
+R8
+R9
+n@somador_vlg_vec_tst
