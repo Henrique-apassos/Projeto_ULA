@@ -1,0 +1,142 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 272 320)
+	(text "Mux_p" (rect 5 0 43 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 235 24 252)(font "Intel Clear" ))
+	(port
+		(pt 0 56)
+		(input)
+		(text "Sinal_comp" (rect 0 0 69 19)(font "Intel Clear" (font_size 8)))
+		(text "Sinal_comp" (rect 21 51 90 70)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 56)(pt 16 56))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "Sinal_sub" (rect 0 0 57 19)(font "Intel Clear" (font_size 8)))
+		(text "Sinal_sub" (rect 21 35 78 54)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 40)(pt 16 40))
+	)
+	(port
+		(pt 0 24)
+		(input)
+		(text "Sinal_soma" (rect 0 0 68 19)(font "Intel Clear" (font_size 8)))
+		(text "Sinal_soma" (rect 24 16 92 35)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 24)(pt 16 24))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "Soma[4..0]" (rect 0 0 64 19)(font "Intel Clear" (font_size 8)))
+		(text "Soma[4..0]" (rect 21 75 85 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "Sub[4..0]" (rect 0 0 54 19)(font "Intel Clear" (font_size 8)))
+		(text "Sub[4..0]" (rect 21 91 75 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "Comp2[4..0]" (rect 0 0 74 19)(font "Intel Clear" (font_size 8)))
+		(text "Comp2[4..0]" (rect 21 107 95 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "igual" (rect 0 0 28 19)(font "Intel Clear" (font_size 8)))
+		(text "igual" (rect 24 144 52 163)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 152)(pt 16 152))
+	)
+	(port
+		(pt 0 168)
+		(input)
+		(text "maior" (rect 0 0 34 19)(font "Intel Clear" (font_size 8)))
+		(text "maior" (rect 24 160 58 179)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 168)(pt 16 168))
+	)
+	(port
+		(pt 0 184)
+		(input)
+		(text "menor" (rect 0 0 37 19)(font "Intel Clear" (font_size 8)))
+		(text "menor" (rect 21 179 58 198)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 184)(pt 16 184))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "log_and[4..0]" (rect 0 0 77 19)(font "Intel Clear" (font_size 8)))
+		(text "log_and[4..0]" (rect 21 203 98 222)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "log_xor[4..0]" (rect 0 0 73 19)(font "Intel Clear" (font_size 8)))
+		(text "log_xor[4..0]" (rect 21 219 94 238)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 104 0)
+		(input)
+		(text "S[2..0]" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
+		(text "S[2..0]" (rect 96 25 115 63)(font "Intel Clear" (font_size 8))(vertical))
+		(line (pt 104 0)(pt 104 16)(line_width 3))
+	)
+	(port
+		(pt 208 72)
+		(output)
+		(text "Sinal" (rect 0 0 29 19)(font "Intel Clear" (font_size 8)))
+		(text "Sinal" (rect 158 67 187 86)(font "Intel Clear" (font_size 8)))
+		(line (pt 208 72)(pt 192 72))
+	)
+	(port
+		(pt 208 96)
+		(output)
+		(text "modulo[4..0]" (rect 0 0 75 19)(font "Intel Clear" (font_size 8)))
+		(text "modulo[4..0]" (rect 112 91 187 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 208 96)(pt 192 96)(line_width 3))
+	)
+	(port
+		(pt 208 168)
+		(output)
+		(text "Status" (rect 0 0 37 19)(font "Intel Clear" (font_size 8)))
+		(text "Status" (rect 150 163 187 182)(font "Intel Clear" (font_size 8)))
+		(line (pt 208 168)(pt 192 168))
+	)
+	(port
+		(pt 208 216)
+		(output)
+		(text "Logico[4..0]" (rect 0 0 68 19)(font "Intel Clear" (font_size 8)))
+		(text "Logico[4..0]" (rect 119 211 187 230)(font "Intel Clear" (font_size 8)))
+		(line (pt 208 216)(pt 192 216)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 8 192 232))
+	)
+)
